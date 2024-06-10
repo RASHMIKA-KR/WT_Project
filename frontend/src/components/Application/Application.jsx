@@ -35,7 +35,7 @@ const Application = () => {
 
     try {
       const { data } = await axios.post(
-        "https://oppurtunity-hub-backend-deploy.onrender.com/api/v1/application/post",
+        "https://localhost:5173/api/v1/application/post",
         formData,
         {
           withCredentials: true,

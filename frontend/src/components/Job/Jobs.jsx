@@ -10,7 +10,7 @@ const Jobs = () => {
   useEffect(() => {
     try {
       axios
-        .get("https://oppurtunity-hub-backend-deploy.onrender.com/api/v1/job/getall", {
+        .get("https://localhost:5173/api/v1/job/getall", {
           withCredentials: true,
         })
         .then((res) => {

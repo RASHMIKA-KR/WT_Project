@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://oppurtunity-hub-backend-deploy.onrender.com/api/v1/user/register",
+        "https://localhost:5173/api/v1/user/register",
         { name, phone, email, role, password },
         {
           headers: {
